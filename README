@@ -2,3 +2,17 @@ This project allows you to control your DVD Player in OS X with a wii remote.
 
 It requires http://darwiinosc.googlecode.com/files/darwiinremoteOSC_0.2.1.zip
 
+Key guide:
+Home -> Open DVD Player
+Up/Down/Left/Right -> Controls menu keys
+Left/Right when watching video -> previous/next chapter
+A button -> enter
+B button -> main menu
++ button -> quit DVD Player
+- button -> put computer in sleep mode 
+1 button -> volume up
+2 button -> volume down
+
+start with 
+ruby server.rb
+

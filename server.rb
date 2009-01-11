@@ -35,12 +35,12 @@ add_method("/wii/button/home") do
   %x{osascript apple_scripts/play_dvd.scpt} 
 end
 
-# add_method("/wii/button/plus") do 
-#   %x{osascript apple_scripts/next_chapter.scpt} 
-# end
-# 
-# add_method("/wii/button/minus") do 
-#   %x{osascript apple_scripts/prev_chapter.scpt} 
-# end
+add_method("/wii/button/one") do 
+  %x{osascript apple_scripts/volume_up.scpt} 
+end
+
+add_method("/wii/button/two") do 
+  %x{osascript apple_scripts/volume_down.scpt} 
+end
 
 @ss.run
