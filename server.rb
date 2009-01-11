@@ -9,7 +9,6 @@ def add_method(id)
   end
 end
 
-para "hi"
 %w{ up down left right }.each do |dir|
   add_method("/wii/button/#{dir}") do 
     %x{osascript apple_scripts/#{dir}_arrow.scpt} 
